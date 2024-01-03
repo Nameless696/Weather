@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:"" ;
+}
+
+.box {
+    width: 80%;
+    margin: 20px auto;
+    background: linear-gradient(45deg,skyblue,whitesmoke);
+    height: 90vh;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#date-time {
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 200px;
+    font-size: 22px;
+}
+
+.weather {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid blue;
+}
+
+.weather-icons {
+    width: 300px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.temperature {
+    font-size: 50px;
+    padding: 20px 0px;
+}
+
+.weathername {
+    border: 1px solid blue;
+    padding: 20px;
+    width: 180px;
+    background: yellow;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: blue;
+}
+
+.grid {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.grid1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.grid2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.grid3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.grid img {
+    width: 100px;
+}
+
+.info p{
+    font-size: 24px;
+    font-weight: bold;
+}
